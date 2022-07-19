@@ -55,8 +55,9 @@ fun NoteButton(
         shape = CircleShape,
         modifier = Modifier
             .height(55.dp)
-            .width(150.dp)
+            .width(150.dp),
+        colors = ButtonDefaults.buttonColors(backgroundColor = Color(0xC00949B8))
     ) {
-        Text(text = text)
+        Text(text = text, color = Color.White)
     }
 }

@@ -80,4 +80,7 @@ dependencies {
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.3'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.3'
 
+    // Status bar
+    implementation "com.google.accompanist:accompanist-systemuicontroller:0.24.11-rc"
+
 }
